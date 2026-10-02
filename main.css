@@ -1,0 +1,45 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 전체 레이아웃 */
+.wrap{
+    width: 100%;
+    background-color: aquamarine;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: red;
+}
+/* 상단 */
+header{
+    /* width: 1200px; */
+    height: 100px;
+    background-color: antiquewhite;
+}
+/* 메인 */
+main{
+    /* width: 1200px; */
+    height:800px;
+    background-color: aqua;
+    display: flex;
+}
+/* 사이드 바 */
+.sidebar{
+    width: 30%;
+    height: 100%;
+    background-color: #999;
+}
+.mainContent{
+    width: 70%;
+    height: 100%;
+    background-color: brown;
+}
+/* 하단 */
+footer{
+    /* width:1200px; */
+    height: 100px;
+    background-color: azure;
+}
